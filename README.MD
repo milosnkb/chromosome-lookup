@@ -19,7 +19,7 @@ What are the limitation/problems with this solution?
 Fragile to data incorrectness, possible performance issues with adding more computing logic.
 
 How would it scale?
-There is a couple of strategies, first would be with process manager like PM2 with cluster feature.
+There are a couple of strategies, first would be with process manager like PM2 with cluster feature.
 If we need to scale even further, we might choose deploying multiple nodes with some network load balancing.
 
 How would you test it efficiently?
